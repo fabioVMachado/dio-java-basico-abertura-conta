@@ -3,6 +3,16 @@
 Resposta ao Desafio BootCamp Dio+Bradesco Java.
 Usar a classe Scanner para simular abertura de uma conta bancária.
 
+No modulo de Exceções aprendemos sobre Try, Catch, Finally que são previsões de
+erros no uso das nossas aplicações. 
+Ex: Usuário precisa digitar seu CPF que contém 11 números. Podemos então usar ou
+criar uma CLASS de Exceção para continuar rodando nossa aplicação. 
+
+Também foi abordado o tema de SubCategoria de Exceções (Falta estudo sobre)
+
+Quero usar esse método para aqui nessa aplicação e pesquisar sobre validação de 
+documento e cep para criar um formulário de Cadastro para simular a abertura de
+conta em uma rede social. 
 
 ## Folder Structure
 
