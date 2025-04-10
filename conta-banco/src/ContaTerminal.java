@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
+        try {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Por favor, digite o número da conta:");
         int conta = scanner.nextInt();
@@ -17,6 +18,13 @@ public class ContaTerminal {
         System.out.println("Agencia: " + agencia + " | Número de conta: " + conta);
         System.out.println("Seu saldo de R$: " + saldo);
         System.out.println("Está disponível para saque. Invista em um lindo dia.");
-        scanner.close();            
+        scanner.close(); 
+        
+        } catch (Exception e) {
+            System.out.println("Ocorreu um erro: ");
+            System.out.println("Os campos Conta e Saldo devem ser numéricos.");
+            System.out.println("O campo Agencia deve ser alfanumérico.");
+            System.out.println("O campo Nome deve ser alfabético.");
         }
+}
 }
